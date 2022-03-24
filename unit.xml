@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.04" tests="1" failures="0">
-    <testsuite name="Root Suite" timestamp="2022-03-24T16:18:56" tests="0" failures="0" time="0"/>
-    <testsuite name="Segment Controller" timestamp="2022-03-24T16:18:57" tests="1" file="/projects/challenge/test/controllers/SegmentController.test.js" failures="0" time="0.04">
-        <testcase name="Segment Controller get /segment" time="0.04" classname="get /segment"/>
+<testsuites name="Mocha Tests" time="0.066" tests="1" failures="0">
+    <testsuite name="Root Suite" timestamp="2022-03-24T16:26:30" tests="0" failures="0" time="0"/>
+    <testsuite name="Segment Controller" timestamp="2022-03-24T16:26:32" tests="1" file="/projects/challenge/test/controllers/SegmentController.test.js" failures="0" time="0.066">
+        <testcase name="Segment Controller get /segment" time="0.066" classname="get /segment"/>
     </testsuite>
     <testsuite name="CarsApi Test Coverage" errors="0" package="CarsApi Test Coverage" hostname="localhost" tests="10" failures="12" time="0.111" timestamp="" id="2">
         <properties/>
