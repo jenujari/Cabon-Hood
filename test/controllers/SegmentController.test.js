@@ -16,7 +16,6 @@ describe('Segment Controller', function() {
           done(err);
         } else {
           result.body.length.should.be.aboveOrEqual(0);
-          // console.log(JSON.stringify(fixtures,null,2));
           done();
         }
       });
@@ -26,7 +25,7 @@ describe('Segment Controller', function() {
     var agent = supertest.agent(sails.hooks.http.app);
     agent
       .post('/segment')
-      .send(fixtures.varient)
+      .send(fixtures.varient[0])
       .expect(200)
       .end(function(err, result) {
         if (err) {
