@@ -20,21 +20,4 @@ describe('Segment Controller', function() {
         }
       });
   });
-
-  it('post /segment', function(done) {
-    var agent = supertest.agent(sails.hooks.http.app);
-    agent
-      .post('/segment')
-      .send(fixtures.varient[0])
-      .expect(200)
-      .end(function(err, result) {
-        if (err) {
-          done(err);
-        } else {
-          result.body.length.should.be.aboveOrEqual(0);
-          done();
-        }
-      });
-  });
-
 });

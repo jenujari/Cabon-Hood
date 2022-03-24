@@ -68,20 +68,20 @@
 <testcase time="0" name="org.eslint.prefer-arrow-callback"><failure message="Unexpected function expression."><![CDATA[line 14, col 12, Error - Unexpected function expression. (prefer-arrow-callback)]]></failure></testcase>
 <testcase time="0" name="org.eslint.func-names"><failure message="Unexpected unnamed function."><![CDATA[line 14, col 12, Warning - Unexpected unnamed function. (func-names)]]></failure></testcase>
 <testcase time="0" name="org.eslint.space-before-function-paren"><failure message="Missing space before function parentheses."><![CDATA[line 14, col 20, Error - Missing space before function parentheses. (space-before-function-paren)]]></failure></testcase>
-<testcase time="0" name="org.eslint.no-undef"><failure message="&apos;it&apos; is not defined."><![CDATA[line 25, col 3, Error - &apos;it&apos; is not defined. (no-undef)]]></failure></testcase>
-<testcase time="0" name="org.eslint.quotes"><failure message="Strings must use doublequote."><![CDATA[line 25, col 6, Error - Strings must use doublequote. (quotes)]]></failure></testcase>
-<testcase time="0" name="org.eslint.func-names"><failure message="Unexpected unnamed function."><![CDATA[line 25, col 23, Warning - Unexpected unnamed function. (func-names)]]></failure></testcase>
-<testcase time="0" name="org.eslint.prefer-arrow-callback"><failure message="Unexpected function expression."><![CDATA[line 25, col 23, Error - Unexpected function expression. (prefer-arrow-callback)]]></failure></testcase>
-<testcase time="0" name="org.eslint.space-before-function-paren"><failure message="Missing space before function parentheses."><![CDATA[line 25, col 31, Error - Missing space before function parentheses. (space-before-function-paren)]]></failure></testcase>
-<testcase time="0" name="org.eslint.no-var"><failure message="Unexpected var, use let or const instead."><![CDATA[line 26, col 5, Error - Unexpected var, use let or const instead. (no-var)]]></failure></testcase>
-<testcase time="0" name="org.eslint.no-undef"><failure message="&apos;sails&apos; is not defined."><![CDATA[line 26, col 33, Error - &apos;sails&apos; is not defined. (no-undef)]]></failure></testcase>
-<testcase time="0" name="org.eslint.quotes"><failure message="Strings must use doublequote."><![CDATA[line 28, col 13, Error - Strings must use doublequote. (quotes)]]></failure></testcase>
-<testcase time="0" name="org.eslint.no-undef"><failure message="&apos;fixtures&apos; is not defined."><![CDATA[line 29, col 13, Error - &apos;fixtures&apos; is not defined. (no-undef)]]></failure></testcase>
-<testcase time="0" name="org.eslint.func-names"><failure message="Unexpected unnamed function."><![CDATA[line 31, col 12, Warning - Unexpected unnamed function. (func-names)]]></failure></testcase>
-<testcase time="0" name="org.eslint.prefer-arrow-callback"><failure message="Unexpected function expression."><![CDATA[line 31, col 12, Error - Unexpected function expression. (prefer-arrow-callback)]]></failure></testcase>
-<testcase time="0" name="org.eslint.space-before-function-paren"><failure message="Missing space before function parentheses."><![CDATA[line 31, col 20, Error - Missing space before function parentheses. (space-before-function-paren)]]></failure></testcase>
-<testcase time="0" name="org.eslint.padded-blocks"><failure message="Block must not be padded by blank lines."><![CDATA[line 41, col 1, Error - Block must not be padded by blank lines. (padded-blocks)]]></failure></testcase>
-<testcase time="0" name="org.eslint.eol-last"><failure message="Newline required at end of file but not found."><![CDATA[line 41, col 4, Error - Newline required at end of file but not found. (eol-last)]]></failure></testcase>
+<testcase time="0" name="org.eslint.no-undef"><failure message="&apos;it&apos; is not defined."><![CDATA[line 24, col 3, Error - &apos;it&apos; is not defined. (no-undef)]]></failure></testcase>
+<testcase time="0" name="org.eslint.quotes"><failure message="Strings must use doublequote."><![CDATA[line 24, col 6, Error - Strings must use doublequote. (quotes)]]></failure></testcase>
+<testcase time="0" name="org.eslint.func-names"><failure message="Unexpected unnamed function."><![CDATA[line 24, col 23, Warning - Unexpected unnamed function. (func-names)]]></failure></testcase>
+<testcase time="0" name="org.eslint.prefer-arrow-callback"><failure message="Unexpected function expression."><![CDATA[line 24, col 23, Error - Unexpected function expression. (prefer-arrow-callback)]]></failure></testcase>
+<testcase time="0" name="org.eslint.space-before-function-paren"><failure message="Missing space before function parentheses."><![CDATA[line 24, col 31, Error - Missing space before function parentheses. (space-before-function-paren)]]></failure></testcase>
+<testcase time="0" name="org.eslint.no-var"><failure message="Unexpected var, use let or const instead."><![CDATA[line 25, col 5, Error - Unexpected var, use let or const instead. (no-var)]]></failure></testcase>
+<testcase time="0" name="org.eslint.no-undef"><failure message="&apos;sails&apos; is not defined."><![CDATA[line 25, col 33, Error - &apos;sails&apos; is not defined. (no-undef)]]></failure></testcase>
+<testcase time="0" name="org.eslint.quotes"><failure message="Strings must use doublequote."><![CDATA[line 27, col 13, Error - Strings must use doublequote. (quotes)]]></failure></testcase>
+<testcase time="0" name="org.eslint.no-undef"><failure message="&apos;fixtures&apos; is not defined."><![CDATA[line 28, col 13, Error - &apos;fixtures&apos; is not defined. (no-undef)]]></failure></testcase>
+<testcase time="0" name="org.eslint.func-names"><failure message="Unexpected unnamed function."><![CDATA[line 30, col 12, Warning - Unexpected unnamed function. (func-names)]]></failure></testcase>
+<testcase time="0" name="org.eslint.prefer-arrow-callback"><failure message="Unexpected function expression."><![CDATA[line 30, col 12, Error - Unexpected function expression. (prefer-arrow-callback)]]></failure></testcase>
+<testcase time="0" name="org.eslint.space-before-function-paren"><failure message="Missing space before function parentheses."><![CDATA[line 30, col 20, Error - Missing space before function parentheses. (space-before-function-paren)]]></failure></testcase>
+<testcase time="0" name="org.eslint.padded-blocks"><failure message="Block must not be padded by blank lines."><![CDATA[line 40, col 1, Error - Block must not be padded by blank lines. (padded-blocks)]]></failure></testcase>
+<testcase time="0" name="org.eslint.eol-last"><failure message="Newline required at end of file but not found."><![CDATA[line 40, col 4, Error - Newline required at end of file but not found. (eol-last)]]></failure></testcase>
 </testsuite>
 <testsuite package="org.eslint" time="0" tests="1" errors="0" name="/projects/challenge/test/controllers/VarientController.test.js">
 <testcase time="0" name="/projects/challenge/test/controllers/VarientController.test.js" />

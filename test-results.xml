@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.07200000000000001" tests="2" failures="1">
-  <testsuite name="Root Suite" timestamp="2022-03-24T16:29:55" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.038" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-03-24T16:30:55" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="Segment Controller" timestamp="2022-03-24T16:29:56" tests="2" file="/projects/challenge/test/controllers/SegmentController.test.js" failures="1" time="0.07200000000000001">
-    <testcase name="Segment Controller get /segment" time="0.037" classname="get /segment">
+  <testsuite name="Segment Controller" timestamp="2022-03-24T16:30:57" tests="2" file="/projects/challenge/test/controllers/SegmentController.test.js" failures="1" time="0.038">
+    <testcase name="Segment Controller get /segment" time="0.038" classname="get /segment">
     </testcase>
-    <testcase name="Segment Controller post /segment" time="0.035" classname="post /segment">
-      <failure><![CDATA[Error: expected 200 "OK", got 400 "Bad Request"
-    at Test._assertStatus (node_modules/supertest/lib/test.js:266:12)
-    at Test._assertFunction (node_modules/supertest/lib/test.js:281:11)
-    at Test.assert (node_modules/supertest/lib/test.js:171:18)
+    <testcase name="Segment Controller post /segment" time="0" classname="post /segment">
+      <failure><![CDATA[TypeError: Cannot read property 'should' of undefined
+    at Test.<anonymous> (test/controllers/SegmentController.test.js:34:30)
+    at Test.assert (node_modules/supertest/lib/test.js:179:6)
     at Server.assert (node_modules/supertest/lib/test.js:131:12)
     at emitCloseNT (net.js:1664:8)
     at _combinedTickCallback (internal/process/next_tick.js:136:11)
