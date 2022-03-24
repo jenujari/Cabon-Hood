@@ -16,9 +16,26 @@ describe('Segment Controller', function() {
           done(err);
         } else {
           result.body.length.should.be.aboveOrEqual(0);
+          console.log(JSON.stringify(fixtures,null,2));
           done();
         }
       });
   });
+
+  // it('post /segment', function(done) {
+  //   var agent = supertest.agent(sails.hooks.http.app);
+  //   agent
+  //     .get('/segment')
+  //     .send()
+  //     .expect(200)
+  //     .end(function(err, result) {
+  //       if (err) {
+  //         done(err);
+  //       } else {
+  //         result.body.length.should.be.aboveOrEqual(0);
+  //         done();
+  //       }
+  //     });
+  // });
 
 });
